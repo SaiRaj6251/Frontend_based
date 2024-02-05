@@ -1,0 +1,66 @@
+body{
+    background-color: #393b92;
+  }
+  
+  aside {
+    background-color: #1b1847;
+    position: fixed;
+    left: 0;
+    top: 68px;
+    width: 310px;
+    padding: 20px 10px;
+    height: 100vh;
+    color: rgba(255, 255, 255, 0.8);
+    z-index: 90;
+  }
+  
+  .sidebar-elements>p {
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    cursor: pointer;
+  }
+  
+  .sidebar-elements>p:hover {
+    background-color: #393b92;
+  }
+  
+  .sidebar-elements p>img {
+    opacity: 0.6;
+    width: 35px;
+    height: 100%;
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  
+  #polarArea-chart{
+    display: inline-block;
+    width: 570px;
+    height: 400px;
+  }
+  
+  #radar-chart{
+    display: inline-block;
+    width: 570px;
+    height: 400px;
+  }
+  
+  #area-chart{
+    display: inline-block;
+    width: 570px;
+    height: 400px;
+  }
+  
+  #nnn{
+    display: flex;
+    padding: 50px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw - 310px);
+    flex-wrap: wrap;
+    margin-left: 310px;
+    gap: 50px;
+  }

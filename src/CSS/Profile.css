@@ -1,0 +1,82 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins", "sans-serif"; */
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.bg {
+    background-image: linear-gradient(to right, rgb(117,110,252), rgb(136,242,255));
+    width: 100%;
+    height: 500px;
+}
+
+.profile-main {
+
+    display: flex;
+    gap: 150px;
+    background: linear-gradient(180deg, rgba(7,2,84,1) 4%, rgba(34,34,164,1) 37%, rgba(0,212,255,1) 100%);
+    color: aliceblue;
+    border-radius: 20px;
+    width: 1500px;
+    height: 850px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-75%, -75%);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+    padding: 25px;
+}
+
+.profile-main img {
+    width: 900px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    width: 70%;
+    padding: 75px 0;
+}
+
+.info p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.details {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.detail {
+    display: flex;
+    gap: 20px;
+}
+
+.detail img {
+    width: 30px;
+    height: 30px;
+}
+
+.socials {
+    margin-top: 35px;
+    display: flex;
+    gap: 5px;
+}
+
+.socials img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
